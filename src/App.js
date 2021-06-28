@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+import logoText from './assets/logoText.svg';
+import ConstructionSign from './components/ConstructionSign';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className={styles.header}>
+        <img src={logoText} alt='logo Alexandru Curcubăt' /> 
       </header>
-    </div>
+      <main></main>
+      <footer>
+        <ConstructionSign />
+      </footer>
+    </>
   );
 }
 

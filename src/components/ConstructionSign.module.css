@@ -1,0 +1,27 @@
+.construction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: auto;
+  color: orange;
+  overflow: hidden;
+}
+
+.message {
+  text-align: center;
+}
+
+.message h1 {
+  margin-bottom: 0.7rem;
+}
+
+.border {
+  white-space: nowrap;
+}
+
+.fixMargin {
+  margin-right: -17px;
+}
+
