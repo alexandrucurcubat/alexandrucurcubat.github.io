@@ -5,11 +5,11 @@ import useWindowDimensions from '../hooks/useWindowsDimensions';
 
 const ConstructionSign = () => {
   const { width } = useWindowDimensions();
-  const bottomBorderReplics = width / 30;
+  const textureReplicas = Math.round(width / 28);
   return (
     <div className={styles.construction}>
       <div className={styles.border}>
-        {Array.from({ length: bottomBorderReplics }, (_, k) => (
+        {Array.from({ length: textureReplicas }, (_, k) => (
           <IconTexture key={k} fill='orange' className={styles.fixMargin} />
         ))}
       </div>
@@ -18,7 +18,7 @@ const ConstructionSign = () => {
         <IconConstruction fill='orange' />
       </div>
       <div className={styles.border}>
-        {Array.from({ length: bottomBorderReplics }, (_, k) => (
+        {Array.from({ length: textureReplicas }, (_, k) => (
           <IconTexture key={k} fill='orange' className={styles.fixMargin} />
         ))}
       </div>

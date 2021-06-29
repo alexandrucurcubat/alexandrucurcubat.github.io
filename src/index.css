@@ -1,22 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+html,
 body {
+  height: 100%;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem;
+}
+
+header img {
+  height: 7rem;
+  margin: 0 auto;
+}
+
+main {
+  flex: 1;
 }
 
 footer {
   display: flex;
   justify-content: center;
+  padding: 1rem;
 }
 
 .higlight {
