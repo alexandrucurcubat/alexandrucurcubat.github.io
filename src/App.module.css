@@ -1,0 +1,21 @@
+.aboutMe {
+  margin-top: 7em;
+}
+
+.aboutMeImg {
+  height: 9em;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 1em;
+  float: right;
+}
+
+.aboutMeLogo {
+  height: 5em;
+  margin: 1em;
+  transition: all 0.2s ease-in-out;
+}
+
+.aboutMeLogo:hover {
+  transform: scale(1.1);
+}
