@@ -1,21 +1,30 @@
-.aboutMe {
-  margin-top: 7em;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
 }
 
-.aboutMeImg {
-  height: 9em;
-  border-radius: 50%;
-  border: 1px solid black;
-  margin-left: 1em;
-  float: right;
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
 }
 
-.aboutMeLogo {
+@media only screen and (max-width: 667px) {
+  main {
+    padding: 1em;
+  }
+}
+
+img.logo {
   height: 5em;
   margin: 1em;
   transition: all 0.2s ease-in-out;
 }
 
-.aboutMeLogo:hover {
+img.logo:hover {
   transform: scale(1.1);
 }
