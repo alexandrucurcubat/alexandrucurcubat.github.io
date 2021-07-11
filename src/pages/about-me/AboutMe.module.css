@@ -3,6 +3,14 @@ img.me {
   width: 9em;
   border-radius: 50%;
   border: 1px solid black;
-  margin-left: 1em;
+  margin: 1em;
   float: right;
+}
+
+section {
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5em;
 }
