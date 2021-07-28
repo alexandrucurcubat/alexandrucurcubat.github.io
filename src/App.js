@@ -1,5 +1,5 @@
 import styles from './App.module.css';
-import logo from './assets/logo_black.svg';
+import logo from './assets/logo.png';
 import AboutMe from './pages/about-me/AboutMe';
 
 const App = () => (
