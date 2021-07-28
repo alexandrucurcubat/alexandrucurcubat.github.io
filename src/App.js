@@ -1,19 +1,20 @@
 import styles from './App.module.css';
 import logo from './assets/logo_black.svg';
-import ConstructionSign from './components/ConstructionSign';
 import AboutMe from './pages/about-me/AboutMe';
 
 const App = () => (
   <>
     <header>
-      <img className={styles.logo} src={logo} alt='alexandru curcubat logo' />
-      <small>WEB / UI / UX</small>
+      <figure>
+        <img className={styles.logo} src={logo} alt='alexandru curcubat logo' />
+        <figcaption>Alexandru Curcubat</figcaption>
+      </figure>
     </header>
     <main>
       <AboutMe />
     </main>
     <footer>
-      <ConstructionSign />
+      <small>WEB / UI / UX</small>
     </footer>
   </>
 );
