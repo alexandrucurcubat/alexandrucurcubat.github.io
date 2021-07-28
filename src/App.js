@@ -7,7 +7,7 @@ const App = () => (
     <header>
       <figure>
         <img className={styles.logo} src={logo} alt='alexandru curcubat logo' />
-        <figcaption>Alexandru Curcubat</figcaption>
+        <figcaption>Alexandru Curcubăt</figcaption>
       </figure>
     </header>
     <main>
