@@ -17,8 +17,8 @@ function AboutMe() {
       <p>
         My main focus is <strong>front-end</strong> web development, a field in which I have just
         under 3 years of experience. In this short period of time I was lucky
-        to work on diverse projects, covering industries like{' '}
-        <strong>e-commerce, automotive, banking and AI</strong>.{' '}
+        to work on diverse projects, covering domains like{' '}
+        <strong>e-commerce, automotive and AI</strong>.{' '}
         <br></br> That being said, I have a constant craving for learning,
         especially if it's about technology.
       </p>
