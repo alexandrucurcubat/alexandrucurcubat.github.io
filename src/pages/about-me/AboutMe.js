@@ -13,11 +13,11 @@ function AboutMe() {
       </p>
       <p>
         My main focus is <strong>front-end</strong> engineering, a field in
-        which I have just under 3 years of experience. <br /> In this short
-        period of time I was lucky to work on diverse projects, covering domains
-        like <strong>e-commerce, automotive</strong> and <strong>AI</strong>.{' '}
-        <br /> That being said, I have a constant craving for learning,
-        especially if it's about technology.
+        which I have 3 years of experience. <br /> In this period of time I was
+        lucky to work on diverse projects, covering domains like{' '}
+        <strong>e-commerce, automotive</strong> and <strong>AI</strong>. <br />{' '}
+        That being said, I have a constant craving for learning, especially if
+        it's about technology.
       </p>
       <p>
         You can find more about me on my{' '}
