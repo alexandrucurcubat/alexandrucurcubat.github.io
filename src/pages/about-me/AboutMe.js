@@ -1,4 +1,4 @@
-import me from '../../assets/sandu-cv.png';
+import me from '../../assets/sandu-cv-2.png';
 
 import styles from './AboutMe.module.css';
 
