@@ -5,6 +5,7 @@ img.me {
   border: 1px solid black;
   margin: 1em;
   float: right;
+  object-fit: cover;
 }
 
 section {
